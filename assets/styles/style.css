@@ -144,6 +144,15 @@ footer {
     margin-bottom: 50px;
 }
 
+.footer-icons i {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer-icons i:last-of-type {
+    margin-right: 0;
+}
+
 footer p {
     font-size: 15px;
 }
