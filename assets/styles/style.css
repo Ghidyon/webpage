@@ -39,11 +39,12 @@ h4 {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 8px 0 #999999;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .navbar-container .nav-logo img {
     width: 50px;
+    margin-left: 20px;
 }
 
 .navbar-container .links {
@@ -52,12 +53,18 @@ h4 {
 
 .navbar-container .links div {
     font-size: 18px;
-    padding: 15px 24px;
+    margin: 15px 24px;
 }
 
-.navbar-container a {
+.navbar-container .links div a {
     text-decoration: none;
     color: white;
+    padding-bottom: 10px;
+    transition: border-bottom .1s ease-in;
+}
+
+.navbar-container .links div a:hover {
+    border-bottom: 2px solid white;
 }
 
 /* Header */
@@ -198,12 +205,4 @@ button {
 
 .grey {
     color: grey;
-}
-
-.white {
-    background: white;
-}
-
-.black {    
-    color: black;
 }
